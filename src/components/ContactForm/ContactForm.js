@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export default function ContactForm({ onFormSubmit }) {
   const [contact, setContact] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('')
 
   function HandleSubmit(evt) {
     evt.preventDefault();
